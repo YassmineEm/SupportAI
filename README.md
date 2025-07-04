@@ -12,7 +12,7 @@ An intelligent chatbot API that provides:
 
 ## Architecture
 
-![System Architecture Diagram](architecture.png)
+![System Architecture Diagram](Architecture.png)
 
 Key Components:
 1. **FastAPI** - REST API framework
