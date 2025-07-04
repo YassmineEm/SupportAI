@@ -13,7 +13,7 @@ An intelligent document-based chatbot API powered by LangChain, featuring:
 
 ## Architecture Overview
 
-![System Architecture](docs/architecture.png)
+![System Architecture](architecture.png)
 
 ## Key Features
 
