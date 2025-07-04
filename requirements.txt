@@ -13,3 +13,4 @@ tiktoken
 langchain
 langchain-openai
 langchain-community
+langchain-qdrant 
