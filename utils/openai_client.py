@@ -11,13 +11,12 @@ if not api_key:
 
 openai_client = OpenAI(api_key=api_key)
 
-# List of allowed models by priority
 DEFAULT_MODEL = "gpt-4o-mini"
 
 def ask_openai(messages, model=DEFAULT_MODEL):
     response = openai_client.chat.completions.create(
         model=model,
         messages=messages,
-        temperature=0.5,  # Moderate randomness
+        temperature=0.5,  
     )
     return response.choices[0].message.content
