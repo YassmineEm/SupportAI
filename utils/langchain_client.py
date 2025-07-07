@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
-from langchain_qdrant import Qdrant  # Updated import
+from langchain_qdrant import Qdrant  
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from qdrant_client import QdrantClient
 
